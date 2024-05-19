@@ -44,3 +44,32 @@ const heros = ["shaktiman", " naagraj", " doga "];  //Array
 console.log( typeof bigNumber);  // bigint
 console.log(typeof myFunction);  //Function
 console.log(typeof myObject);    //Object
+
+
+//-------------------------------------------------------------------------------------------------
+
+//Stack ( primitive) , Heap ( Non- primiptive)
+//ex- stack-------------------------------
+
+let myYoutubename = " kriti.com"
+let anothername = myYoutubename
+//console.log( anothername);        // kriti.com
+
+anothername = "prakriti.com"
+
+console.log(myYoutubename);          //kriti.com
+console.log(anothername);            //prakriti.com
+
+// example - heap -------------------------------
+
+let userOne = {
+  email:"prakriti.com",
+  upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "kriti23.com"
+
+console.log(userOne.email);     //kriti23.com
+console.log(userTwo.email);     //kriti23.com
