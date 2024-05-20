@@ -25,4 +25,9 @@ console.log( undefined < 0);    // F
 console.log( "2" === 2); //false
 
 
+//avoid this type of writing 
+// give priority to clean code
+//note: equality check and comparisons are not same
+
+
 
