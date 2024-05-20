@@ -4,8 +4,9 @@ console.log(score);  //100
 const balance= new Number(200)
 console.log(balance);      // [ Number : 200 ]
 
-console.log(balance.toString());  //200
-console.log(balance.toFixed(2)); // 200 => 200.00
+console.log(balance.toString());              //200
+console.log( balance.toString().length);      //3
+console.log(balance.toFixed(2));          // 200 => 200.00
 
 const otherNum = 123.8945
 
